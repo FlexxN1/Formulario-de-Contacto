@@ -43,7 +43,10 @@ body {
     font-weight: bold;
     padding: 0 1.5em;
 }
-
+.btn.full:focus {
+    background-color: #DA1414;
+    color: white;
+}
 .btn.full {
     width: 100%;
 }
