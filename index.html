@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,18 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section class="contact">
         <div class="u-wrapper">
             <div class="contact-content">
-
                 <form id="form" action="" class="form">
-                <h3 class="tag"><span>HABLEMOS</span></h3>
+                <h3 class="tag"><span>CONTACT ME!</span></h3>
                 <label for="name">Nombre Completo <span>*</span></label>
-                <input name="name" required type="text" id="name" placeholder="Juan">
+                <input name="name" required type="text" id="name" placeholder="Nombre">
                 <label for="email">Correo electrónico <span>*</span></label>
-                <input name="email" type="text" id="email" required placeholder="juan@gmail.com">
+                <input name="email" type="text" id="email" required placeholder="Flexx@gmail.com">
                 <label for="message">Mensaje</label>
                 <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
                 <button type="submit" class="btn primary full">enviar mensaje</button>
@@ -26,5 +26,6 @@
             </div>
         </div>
     </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
